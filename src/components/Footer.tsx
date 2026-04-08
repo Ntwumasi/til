@@ -1,4 +1,4 @@
-import LogoSvg from "./LogoSvg";
+import Image from "next/image";
 
 export default function Footer() {
   return (
@@ -15,7 +15,7 @@ export default function Footer() {
               padding: 3,
             }}
           >
-            <LogoSvg />
+            <Image src="/logo.png" alt="TJL Home Services" width={42} height={34} />
           </div>
           <span>TJL Home Services</span>
         </div>

@@ -33,7 +33,7 @@ export default function Contact() {
             <div className="contact-detail">
               <div className="contact-detail-icon">&#128222;</div>
               <div>
-                <span>(555) 123-4567</span>
+                <span>(978) 877-8645</span>
                 <small>Mon-Sat, 7am - 7pm</small>
               </div>
             </div>
@@ -47,8 +47,8 @@ export default function Contact() {
             <div className="contact-detail">
               <div className="contact-detail-icon">&#128205;</div>
               <div>
-                <span>Your Service Area</span>
-                <small>Serving the greater metro area</small>
+                <span>Middlesex County / Southern NH</span>
+                <small>Serving the local area</small>
               </div>
             </div>
           </div>

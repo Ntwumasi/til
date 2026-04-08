@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import LogoSvg from "./LogoSvg";
+import Image from "next/image";
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -18,7 +18,7 @@ export default function Navbar() {
       <div className="nav-inner">
         <a href="#" className="logo">
           <div className="logo-icon">
-            <LogoSvg />
+            <Image src="/logo.png" alt="TJL Home Services" width={50} height={44} />
           </div>
           <div className="logo-text">
             <span className="brand">TJL</span>
