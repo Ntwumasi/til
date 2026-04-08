@@ -1,4 +1,5 @@
 import FadeIn from "./FadeIn";
+import { IconStar } from "./Icons";
 
 const testimonials = [
   {
@@ -31,10 +32,21 @@ export default function Testimonials() {
         {testimonials.map((t) => (
           <FadeIn key={t.author}>
             <div className="testimonial-card">
-              <div className="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <div className="stars">
+                {[...Array(5)].map((_, i) => (
+                  <IconStar key={i} />
+                ))}
+              </div>
               <blockquote>&ldquo;{t.quote}&rdquo;</blockquote>
-              <div className="testimonial-author">{t.author}</div>
-              <div className="testimonial-role">{t.role}</div>
+              <div className="testimonial-footer">
+                <div className="testimonial-avatar">
+                  {t.author.charAt(0)}
+                </div>
+                <div>
+                  <div className="testimonial-author">{t.author}</div>
+                  <div className="testimonial-role">{t.role}</div>
+                </div>
+              </div>
             </div>
           </FadeIn>
         ))}

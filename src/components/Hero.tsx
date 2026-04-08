@@ -1,12 +1,12 @@
+import { IconCheck } from "./Icons";
+
 export default function Hero() {
   return (
     <section className="hero" id="home">
       <div className="hero-pattern" />
       <div className="hero-inner">
         <div className="hero-text">
-          <div className="hero-badge">
-            <span className="dot" /> Serving Residential &amp; Commercial
-          </div>
+          <p className="hero-eyebrow">Residential &amp; Commercial Pressure Washing</p>
           <h1>
             Make Your Property <span className="highlight">Shine Like New</span>
           </h1>
@@ -17,20 +17,17 @@ export default function Hero() {
           </p>
           <div className="hero-actions">
             <a href="#contact" className="btn btn-primary">
-              Get a Free Quote &rarr;
+              Get a Free Quote
             </a>
-            <a href="#services" className="btn btn-outline">
-              View Services
+            <a href="tel:9788778645" className="btn btn-outline">
+              Call (978) 877-8645
             </a>
           </div>
         </div>
         <div className="hero-visual">
           <div className="hero-card">
             <h3>
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                <path d="M22 11.08V12a10 10 0 11-5.93-9.14" />
-                <polyline points="22 4 12 14.01 9 11.01" />
-              </svg>
+              <IconCheck />
               Why Clients Trust TJL
             </h3>
             <div className="stat-grid">

@@ -2,6 +2,7 @@
 
 import { FormEvent } from "react";
 import FadeIn from "./FadeIn";
+import { IconPhone, IconMail, IconMapPin } from "./Icons";
 
 export default function Contact() {
   const handleSubmit = (e: FormEvent) => {
@@ -31,21 +32,27 @@ export default function Contact() {
               property looking its best.
             </p>
             <div className="contact-detail">
-              <div className="contact-detail-icon">&#128222;</div>
+              <div className="contact-detail-icon">
+                <IconPhone />
+              </div>
               <div>
                 <span>(978) 877-8645</span>
                 <small>Mon-Sat, 7am - 7pm</small>
               </div>
             </div>
             <div className="contact-detail">
-              <div className="contact-detail-icon">&#9993;</div>
+              <div className="contact-detail-icon">
+                <IconMail />
+              </div>
               <div>
                 <span>tyler@tjltraining.com</span>
                 <small>We reply within 24 hours</small>
               </div>
             </div>
             <div className="contact-detail">
-              <div className="contact-detail-icon">&#128205;</div>
+              <div className="contact-detail-icon">
+                <IconMapPin />
+              </div>
               <div>
                 <span>Middlesex County / Southern NH</span>
                 <small>Serving the local area</small>
@@ -96,7 +103,7 @@ export default function Contact() {
               <textarea placeholder="Tell us about the area, approximate size, and any specific concerns..." />
             </div>
             <button type="submit" className="btn-submit">
-              Send Quote Request &rarr;
+              Send Quote Request
             </button>
           </form>
         </FadeIn>

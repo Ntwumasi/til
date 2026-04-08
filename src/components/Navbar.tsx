@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import Image from "next/image";
+import { IconMenu } from "./Icons";
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -37,7 +38,7 @@ export default function Navbar() {
           onClick={() => setMenuOpen(!menuOpen)}
           aria-label="Toggle menu"
         >
-          &#9776;
+          <IconMenu />
         </button>
       </div>
     </nav>
