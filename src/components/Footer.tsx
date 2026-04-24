@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Footer() {
   return (
@@ -24,6 +25,10 @@ export default function Footer() {
           <a href="#services">Services</a>
           <a href="#why">Why Us</a>
           <a href="#contact">Contact</a>
+        </div>
+        <div className="footer-links">
+          <Link href="/privacy-policy">Privacy Policy</Link>
+          <Link href="/terms-and-conditions">Terms &amp; Conditions</Link>
         </div>
         <div className="footer-copy">
           &copy; {new Date().getFullYear()} TJL Home Services. All rights
