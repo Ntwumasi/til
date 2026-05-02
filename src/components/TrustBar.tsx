@@ -1,9 +1,9 @@
-import { IconShield, IconLeaf, IconClock, IconDollar } from "./Icons";
+import { IconShield, IconClock, IconStar, IconDollar } from "./Icons";
 
 const items = [
   { icon: <IconShield />, label: "Fully Insured" },
-  { icon: <IconLeaf />, label: "Eco-Friendly Products" },
-  { icon: <IconClock />, label: "Same-Week Scheduling" },
+  { icon: <IconClock />, label: "Fast Response Time" },
+  { icon: <IconStar />, label: "Professional Service" },
   { icon: <IconDollar />, label: "Free Estimates" },
 ];
 

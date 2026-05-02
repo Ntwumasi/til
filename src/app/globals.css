@@ -112,8 +112,9 @@ nav.scrolled { box-shadow: 0 4px 20px rgba(0,0,0,0.4); }
 }
 .hero-inner {
   max-width: 1200px; margin: 0 auto; padding: 60px 24px;
-  display: grid; grid-template-columns: 1fr 1fr; gap: 60px;
+  display: grid; grid-template-columns: 1fr; gap: 60px;
   align-items: center; position: relative; z-index: 1;
+  text-align: center;
 }
 .hero-text { color: var(--white); }
 .hero-eyebrow {
@@ -132,9 +133,9 @@ nav.scrolled { box-shadow: 0 4px 20px rgba(0,0,0,0.4); }
 }
 .hero p {
   font-size: 1.15rem; color: rgba(255,255,255,0.65);
-  max-width: 480px; margin-bottom: 36px; line-height: 1.7;
+  max-width: 600px; margin: 0 auto 36px; line-height: 1.7;
 }
-.hero-actions { display: flex; gap: 14px; flex-wrap: wrap; }
+.hero-actions { display: flex; gap: 14px; flex-wrap: wrap; justify-content: center; }
 .btn {
   display: inline-flex; align-items: center; gap: 8px;
   padding: 14px 30px; border-radius: 12px;
@@ -158,33 +159,6 @@ nav.scrolled { box-shadow: 0 4px 20px rgba(0,0,0,0.4); }
   border-color: rgba(255,255,255,0.5); background: rgba(255,255,255,0.06);
 }
 
-.hero-visual {
-  display: flex; justify-content: center; align-items: center;
-}
-.hero-card {
-  background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1);
-  border-radius: var(--radius-lg); padding: 40px; backdrop-filter: blur(20px);
-  width: 100%; max-width: 420px;
-}
-.hero-card h3 {
-  color: var(--white); font-size: 1.2rem; margin-bottom: 24px;
-  display: flex; align-items: center; gap: 10px;
-}
-.stat-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
-.stat-item {
-  background: rgba(255,255,255,0.04); border-radius: var(--radius);
-  padding: 20px; text-align: center;
-  border: 1px solid rgba(255,255,255,0.07);
-}
-.stat-number {
-  font-size: 2rem; font-weight: 900; color: var(--red-400);
-  display: block;
-}
-.stat-label {
-  font-size: 0.8rem; color: rgba(255,255,255,0.5);
-  font-weight: 500; margin-top: 4px; text-transform: uppercase;
-  letter-spacing: 0.05em;
-}
 
 /* -- TRUST BAR -- */
 .trust-bar {
@@ -420,8 +394,6 @@ footer {
   .hero-inner { grid-template-columns: 1fr; text-align: center; gap: 32px; }
   .hero p { margin: 0 auto 36px; }
   .hero-actions { justify-content: center; }
-  .hero-visual { margin-top: 20px; }
-  .hero-card { max-width: 360px; padding: 28px; margin: 0 auto; }
   .services { padding: 72px 20px; }
   .services-grid { grid-template-columns: 1fr 1fr; }
   .testimonials { padding: 72px 20px; }
@@ -440,9 +412,6 @@ footer {
   .hero h1 { font-size: 2rem; }
   .hero p { font-size: 1rem; }
   .hero-badge { font-size: 0.78rem; }
-  .hero-card { max-width: 100%; padding: 24px; }
-  .stat-number { font-size: 1.5rem; }
-  .stat-item { padding: 14px; }
   .hero-actions { flex-direction: column; align-items: center; }
   .hero-actions .btn { width: 100%; justify-content: center; }
 
@@ -485,8 +454,6 @@ footer {
   .hero-inner { padding: 32px 12px; }
   .nav-inner { padding: 0 12px; }
   .logo-text .brand { font-size: 0.95rem; }
-  .stat-grid { grid-template-columns: 1fr 1fr; gap: 10px; }
-  .stat-number { font-size: 1.3rem; }
   .trust-inner { flex-direction: column; align-items: flex-start; }
 }
 

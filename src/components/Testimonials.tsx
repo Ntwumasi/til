@@ -13,7 +13,7 @@ const testimonials = [
     role: "Business Owner",
   },
   {
-    quote: "I love that they use eco-friendly products. My deck looks incredible and I didn't have to worry about my garden or pets. Will definitely use again!",
+    quote: "Incredibly fast response time and very professional. My deck looks incredible and the whole process was smooth from start to finish. Will definitely use again!",
     author: "Linda T.",
     role: "Homeowner",
   },

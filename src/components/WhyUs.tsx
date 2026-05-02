@@ -3,8 +3,8 @@ import FadeIn from "./FadeIn";
 const reasons = [
   {
     num: 1,
-    title: "Eco-Friendly Approach",
-    description: "Biodegradable cleaning solutions that are safe for your landscaping, pets, and the environment.",
+    title: "Fast Response Time",
+    description: "Quick scheduling and prompt arrivals. We respect your time and get the job done efficiently.",
   },
   {
     num: 2,

@@ -36,7 +36,7 @@ export default function Contact() {
                 <IconPhone />
               </div>
               <div>
-                <span>(978) 877-8645</span>
+                <span>(470) 864-1229</span>
                 <small>Mon-Sat, 7am - 7pm</small>
               </div>
             </div>
@@ -45,7 +45,7 @@ export default function Contact() {
                 <IconMail />
               </div>
               <div>
-                <span>tyler@tjltraining.com</span>
+                <span>Info@tjlhomeservices.com</span>
                 <small>We reply within 24 hours</small>
               </div>
             </div>
@@ -54,8 +54,8 @@ export default function Contact() {
                 <IconMapPin />
               </div>
               <div>
-                <span>Middlesex County / Southern NH</span>
-                <small>Serving the local area</small>
+                <span>Atlanta, GA Metro Area</span>
+                <small>Serving the greater Atlanta area</small>
               </div>
             </div>
           </div>
