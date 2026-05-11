@@ -36,7 +36,7 @@ export default function Contact() {
                 <IconPhone />
               </div>
               <div>
-                <span>(470) 864-1229</span>
+                <span>(978) 877-8645</span>
                 <small>Mon-Sat, 7am - 7pm</small>
               </div>
             </div>
@@ -45,7 +45,7 @@ export default function Contact() {
                 <IconMail />
               </div>
               <div>
-                <span>Info@tjlhomeservices.com</span>
+                <span>info@tjlhomeservices.com</span>
                 <small>We reply within 24 hours</small>
               </div>
             </div>
@@ -54,8 +54,8 @@ export default function Contact() {
                 <IconMapPin />
               </div>
               <div>
-                <span>Atlanta, GA Metro Area</span>
-                <small>Serving the greater Atlanta area</small>
+                <span>Middlesex County, MA &amp; Southern NH</span>
+                <small>Serving Middlesex County and Southern NH</small>
               </div>
             </div>
           </div>
@@ -101,6 +101,25 @@ export default function Contact() {
             <div className="form-group">
               <label>Project Details</label>
               <textarea placeholder="Tell us about the area, approximate size, and any specific concerns..." />
+            </div>
+            <div className="form-group form-group-checkbox">
+              <label className="checkbox-label">
+                <input type="checkbox" required />
+                <span>
+                  I agree to receive text messages from TJL Home Services
+                  regarding my service requests, appointments, and invoices.
+                  Message and data rates may apply. Message frequency varies.
+                  Reply STOP to cancel. View our{" "}
+                  <a href="/privacy-policy" target="_blank" rel="noopener noreferrer">
+                    Privacy Policy
+                  </a>{" "}
+                  and{" "}
+                  <a href="/terms-and-conditions" target="_blank" rel="noopener noreferrer">
+                    Terms &amp; Conditions
+                  </a>
+                  .
+                </span>
+              </label>
             </div>
             <button type="submit" className="btn-submit">
               Send Quote Request

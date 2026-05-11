@@ -17,8 +17,8 @@ export default function Hero() {
             <a href="#contact" className="btn btn-primary">
               Get a Free Quote
             </a>
-            <a href="tel:4708641229" className="btn btn-outline">
-              Call (470) 864-1229
+            <a href="tel:9788778645" className="btn btn-outline">
+              Call (978) 877-8645
             </a>
           </div>
         </div>

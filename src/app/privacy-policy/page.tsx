@@ -57,8 +57,10 @@ export default function PrivacyPolicy() {
           </p>
           <p>
             We will not share your phone number or SMS opt-in data with third
-            parties for their marketing purposes. SMS consent is not a condition
-            of purchase.
+            parties for their marketing purposes. All the above categories
+            exclude text messaging originator opt-in data and consent; this
+            information will not be shared with any third parties. SMS consent
+            is not a condition of purchase.
           </p>
         </section>
 
@@ -115,8 +117,8 @@ export default function PrivacyPolicy() {
             If you have questions about this Privacy Policy, please contact us:
           </p>
           <ul>
-            <li>Phone: (470) 864-1229</li>
-            <li>Email: tjlhomeservicesllc@gmail.com</li>
+            <li>Phone: (978) 877-8645</li>
+            <li>Email: info@tjlhomeservices.com</li>
           </ul>
         </section>
       </div>

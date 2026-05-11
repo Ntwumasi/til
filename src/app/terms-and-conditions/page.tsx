@@ -28,7 +28,7 @@ export default function TermsAndConditions() {
           <h2>2. Services</h2>
           <p>
             TJL Home Services provides professional pressure washing and
-            exterior cleaning services in the greater Atlanta, GA metro area. All
+            exterior cleaning services in Middlesex County, MA and Southern NH. All
             services are subject to availability and scheduling.
           </p>
         </section>
@@ -55,6 +55,13 @@ export default function TermsAndConditions() {
             You may opt out at any time by texting <strong>STOP</strong>. Text{" "}
             <strong>HELP</strong> for assistance. SMS consent is not required as
             a condition of purchasing any goods or services.
+          </p>
+          <p>
+            Carriers are not liable for any delayed or undelivered messages.
+          </p>
+          <p>
+            For details on how we handle your data, see our{" "}
+            <Link href="/privacy-policy">Privacy Policy</Link>.
           </p>
         </section>
 
@@ -112,8 +119,8 @@ export default function TermsAndConditions() {
             contact us:
           </p>
           <ul>
-            <li>Phone: (470) 864-1229</li>
-            <li>Email: tjlhomeservicesllc@gmail.com</li>
+            <li>Phone: (978) 877-8645</li>
+            <li>Email: info@tjlhomeservices.com</li>
           </ul>
         </section>
       </div>
