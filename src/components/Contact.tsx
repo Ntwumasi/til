@@ -104,7 +104,7 @@ export default function Contact() {
             </div>
             <div className="form-group form-group-checkbox">
               <label className="checkbox-label">
-                <input type="checkbox" required />
+                <input type="checkbox" />
                 <span>
                   I agree to receive text messages from TJL Home Services
                   regarding my service requests, appointments, and invoices.
